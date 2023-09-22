@@ -1,0 +1,30 @@
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\bin\Debug\net7.0\SommaPunteggu.exe
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\bin\Debug\net7.0\SommaPunteggu.deps.json
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\bin\Debug\net7.0\SommaPunteggu.runtimeconfig.json
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\bin\Debug\net7.0\SommaPunteggu.dll
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\bin\Debug\net7.0\SommaPunteggu.pdb
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.csproj.AssemblyReference.cache
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.AssemblyInfoInputs.cache
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.AssemblyInfo.cs
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.dll
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\refint\SommaPunteggu.dll
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.pdb
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.genruntimeconfig.cache
+C:\Users\Utente\Desktop\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\ref\SommaPunteggu.dll
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\bin\Debug\net7.0\SommaPunteggu.exe
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\bin\Debug\net7.0\SommaPunteggu.deps.json
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\bin\Debug\net7.0\SommaPunteggu.runtimeconfig.json
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\bin\Debug\net7.0\SommaPunteggu.dll
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\bin\Debug\net7.0\SommaPunteggu.pdb
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.csproj.AssemblyReference.cache
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.AssemblyInfoInputs.cache
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.AssemblyInfo.cs
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.csproj.CoreCompileInputs.cache
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.dll
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\refint\SommaPunteggu.dll
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.pdb
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\SommaPunteggu.genruntimeconfig.cache
+D:\Corso ITS IIOT\Progetti C#\CORSO OPP\SommaPunteggu\SommaPunteggu\obj\Debug\net7.0\ref\SommaPunteggu.dll
