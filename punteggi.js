@@ -13,8 +13,16 @@ function aggiungiPartecipante() {
 function aggiungiPunti() {
     const punti = parseInt(document.getElementById('points').value);
     const selectedParticipantIndex = document.getElementById('selected-participant').value;
-    if (!isNaN(punti) && selectedParticipantIndex >= 0) {
-        partecipanti[selectedParticipantIndex].punti += punti;
+    if (!isNaN(punti)) {
+        if (selectedParticipantIndex === 'all') {
+            // Aggiungi punti a tutti i partecipanti
+            for (const partecipante of partecipanti) {
+                partecipante.punti += punti;
+            }
+        } else if (selectedParticipantIndex >= 0) {
+            // Aggiungi punti solo al partecipante selezionato
+            partecipanti[selectedParticipantIndex].punti += punti;
+        }
         aggiornaListaPartecipanti();
         document.getElementById('points').value = '0';
     }
@@ -23,8 +31,16 @@ function aggiungiPunti() {
 function togliPunti() {
     const punti = parseInt(document.getElementById('points').value);
     const selectedParticipantIndex = document.getElementById('selected-participant').value;
-    if (!isNaN(punti) && selectedParticipantIndex >= 0) {
-        partecipanti[selectedParticipantIndex].punti -= punti;
+    if (!isNaN(punti)) {
+        if (selectedParticipantIndex === 'all') {
+            // Togli punti a tutti i partecipanti
+            for (const partecipante of partecipanti) {
+                partecipante.punti -= punti;
+            }
+        } else if (selectedParticipantIndex >= 0) {
+            // Togli punti solo al partecipante selezionato
+            partecipanti[selectedParticipantIndex].punti -= punti;
+        }
         aggiornaListaPartecipanti();
         document.getElementById('points').value = '0';
     }
@@ -64,6 +80,7 @@ function aggiornaListaPartecipanti() {
 function aggiornaSelezionePartecipante() {
     const select = document.getElementById('selected-participant');
     select.innerHTML = '<option value="-1">Seleziona un partecipante</option>';
+    select.innerHTML += '<option value="all">Tutti</option>';
 
     for (let i = 0; i < partecipanti.length; i++) {
         const option = document.createElement('option');
@@ -72,6 +89,5 @@ function aggiornaSelezionePartecipante() {
         select.appendChild(option);
     }
 }
-
 
 aggiornaSelezionePartecipante();
