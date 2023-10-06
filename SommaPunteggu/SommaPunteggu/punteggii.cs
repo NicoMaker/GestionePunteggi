@@ -45,7 +45,7 @@
         Console.Write("quanti punti vuoi aggiungere a " + nome + " ");
         int aggiungi = Convert.ToInt32(Console.ReadLine());
 
-        for (int i = 0; i < utenti.Length; i++)
+        for (int i = 0; i < utenti.Length  - 1; i++)
             if (nome == utenti[i])
                 punti[i] += aggiungi;
 
@@ -62,7 +62,7 @@
             Console.Write("inserisci il nome a cui togliere i punti ");
             nome = Console.ReadLine();
 
-            for (int i = 0; i < utenti.Length; i++)
+            for (int i = 0; i < utenti.Length - 1; i++)
                 if (nome == utenti[i])
                     conta = true;
 
@@ -77,31 +77,31 @@
 
     }
 
-    public static void aggiungiatutti(string [] utenti, List<int> punti)
+    public static void aggiungiatutti(string [] utenti, List<int> punti, int numeroutenti)
     {
         Console.Write("quanti punti vuoi aggiungere a tutti ");
         int aggiungi = Convert.ToInt32(Console.ReadLine());
 
-        for (int i = 0; i < utenti.Length; i++)
+        for (int i = 0; i < numeroutenti; i++)
             punti[i] += aggiungi;
     }
 
-    public static void togliatutti(string [] utenti, List<int> punti)
+    public static void togliatutti(string [] utenti, List<int> punti, int numeroutenti)
     {
         Console.Write("quanti punti vuoi togliere a tutti ");
         int togli = Convert.ToInt32(Console.ReadLine());
 
-        for (int i = 0; i < utenti.Length; i++)
+        for (int i = 0; i < numeroutenti; i++)
             punti[i] -= togli;
     }
 
 
-    public static void vincitore(string [] utenti, List<int> punti)
+    public static void vincitore(string [] utenti, List<int> punti, int numeroutenti)
     {
         int max = int.MinValue;
         string vincitore = "nessun vincitore";
 
-        for (int i = 0; i < utenti.Length; i++)
+        for (int i = 0; i < numeroutenti; i++)
             if (punti[i] >= max)
             {
                 max = punti[i];

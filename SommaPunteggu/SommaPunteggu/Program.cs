@@ -1,5 +1,5 @@
 ﻿int s = 0 , numeroutenti = 0;
-const int Vettore = 30000000;
+const int Vettore = 300000000;
 
 string []  utenti = new string[Vettore]; 
 
@@ -27,15 +27,15 @@ do
             break;
 
         case 5:
-            punteggi.aggiungiatutti(utenti, punti);
+            punteggi.aggiungiatutti(utenti, punti, numeroutenti);
             break;
 
         case 6:
-            punteggi.togliatutti(utenti, punti);
+            punteggi.togliatutti(utenti, punti, numeroutenti);
             break;
 
         case 7:
-            punteggi.vincitore(utenti, punti); 
+            punteggi.vincitore(utenti, punti, numeroutenti); 
             break;
 
         case 8:
