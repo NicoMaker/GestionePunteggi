@@ -11,7 +11,7 @@ function aggiungiPartecipante() {
 }
 
 function aggiungiPunti() {
-    const punti = parseInt(document.getElementById('points').value);
+    const punti = parseFloat(document.getElementById('points').value);
     const selectedParticipantIndex = document.getElementById('selected-participant').value;
     if (!isNaN(punti)) {
         if (selectedParticipantIndex === 'all') {
@@ -29,7 +29,7 @@ function aggiungiPunti() {
 }
 
 function togliPunti() {
-    const punti = parseInt(document.getElementById('points').value);
+    const punti = parseFloat(document.getElementById('points').value);
     const selectedParticipantIndex = document.getElementById('selected-participant').value;
     if (!isNaN(punti)) {
         if (selectedParticipantIndex === 'all') {
